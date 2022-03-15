@@ -2,30 +2,23 @@ const React = require('react')
 class Index extends React.Component {
        render() {
               return (
-                     <div>
+                     <body>
                             <h1>Products Index Page</h1>
-                            <ul>
-                                   {this.props.products.map((product, i) => {
-                                          return (
-                                                 <li key={i}>
-                                                        Name :{product.name}
-                                                        <br></br>
-                                                        Description:{product.description}
-                                                        <br></br>
-                                                        <a href={`/products/${product.id}`}><img src={product.img} /></a>
-                                                        <br></br>
-                                                        Price:{product.price}<br></br>
-                                                        Quantity:{product.qty}
-                                                        <br></br>
-                                                 </li>
-                                          )
-
-                                   })}
-                            </ul>
+                            {this.props.products.map((product, i) => {
+                                   return (
+                                          <li key={i}>
+                                                 <h3>Name :{product.name}</h3>
+                                                 <h3>Description:{product.description}</h3>
+                                                 <a href={`/products/${product.id}`}><img src={product.img} /></a>
+                                                 Price:${product.price}<br />
+                                                 Quantity:{product.qty}
+                                          </li>
+                                   )
+                            })}
                             <nav>
                                    <a href="/products/new">Create a New Product</a>
                             </nav>
-                     </div>
+                     </body>
               )
        }
 }

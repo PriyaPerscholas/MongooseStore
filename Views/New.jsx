@@ -15,7 +15,7 @@ class New extends React.Component {
                                    Image URL:<input type="text" name="img" />
                                    <br></br>
                                    <br></br>
-                                   Price:<input type="number" name="price" step="1" /><br></br>
+                                   Price:<input type="number" name="price" step="0.01" /><br></br>
                                    <br></br>
                                    Quantity:<input type="number" name="qty" /><br></br>
                                    <br></br>

@@ -3,17 +3,22 @@ class Show extends React.Component {
        render() {
               return (
                      <div>
-                            <h1>{this.props.product.name}</h1>
-                            <h3>{this.props.product.description}</h3>
-                            <img src={this.props.product.img} /><br />
-                            <h3>{this.props.product.price}</h3>
-                            <h3>{this.props.product.qty}</h3>
-                            <a href={`/products/${product._id}/edit`}>Edit this product</a>
-
-                            <form action={`/products/${product._id}?_method=DELETE`} method="POST">
-                                   <input type="submit" value="DELETE" />
+                            <h1>Product Show Page</h1>
+                            <img style={{ height: '250px', width: '250px' }} src={this.props.product.img} />
+                            <h1>Product: {this.props.product.name}</h1>
+                            <h3>Description: {this.props.product.description}</h3>
+                            <h3>Price: ${this.props.product.price}</h3>
+                            <h3>Product:{this.props.product.qty}</h3>
+                            <form action={`/products/${this.props.product._id}?_method=PATCH`} method="POST">
+                                   <input type="submit" value="BuyProduct" />
                             </form>
-                            <a href={`/products/${product._id}/edit`}>Edit This Product</a>
+                            <form action={`/products/${this.props.product._id}?_method=DELETE`} method="POST">
+                                   <input type="submit" value="Delete" />
+                            </form>
+                            <br></br>
+                            <a href={`/products/${this.props.product._id}/edit`}>EditProduct</a>
+                            <br></br>
+                            <a href={`/products/`}>Back to Index</a>
                      </div>
               )
        }
