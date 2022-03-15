@@ -6,6 +6,7 @@ class Edit extends React.Component {
                             <h1>Product Edit Page</h1>
                             <form action={`/products/${this.props.product._id}?_method=PUT`} method="POST">
                                    Name: <input type="text" name="name" defaultValue={this.props.product.name} />
+                                   <br />
                                    <br></br>
                                    Description:<input type="text" name="description" defaultValue={this.props.product.description} /><br />
                                    <br></br>
