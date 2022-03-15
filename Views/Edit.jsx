@@ -14,7 +14,7 @@ class Edit extends React.Component {
                                    <br></br>
                                    Price:<input type="number" name="price" step="0.01 " defaultValue={this.props.product.price} /><br />
                                    <br></br>
-                                   Quantity:<input type="number" name="quantity" defaultValue={this.props.product.qty} /><br></br>
+                                   Quantity:<input type="number" name="qty" defaultValue={this.props.product.qty} /><br></br>
                                    <br></br>
                                    <input type="submit" value="Submit Changes" />
                                    <br></br>

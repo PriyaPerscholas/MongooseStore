@@ -40,7 +40,8 @@ const dataController = {
               })
        },
        update(req, res, next) {
-              Product.findByIdAndBuy(req.params.id, req.body, { new: true }, (err, updatedProduct) => {
+              Product.findByIdAndUpdate(req.params.id, req.body, { new: true }, (err, updatedProduct) => {
+
                      if (err) {
                             res.status(404).send({
                                    msg: err.message
@@ -52,7 +53,7 @@ const dataController = {
               })
        },
        buy(req, res, next) {
-              Product.findByIdAndUpdate(req.params.id, req.body, { new: true }, (err, updatedProduct) => {
+              Product.findByIdAndUpdate(req.params.id, { $inc: { qty: -1 } }, { new: true }, (err, updatedProduct) => {
                      if (err) {
                             res.status(404).send({
                                    msg: err.message

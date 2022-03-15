@@ -10,8 +10,11 @@ class Index extends React.Component {
                                                  <h3>Name :{product.name}</h3>
                                                  <h3>Description:{product.description}</h3>
                                                  <a href={`/products/${product.id}`}><img src={product.img} /></a>
+                                                 <br></br>
                                                  Price:${product.price}<br />
+                                                 <br></br>
                                                  Quantity:{product.qty}
+                                                 <br></br>
                                           </li>
                                    )
                             })}
