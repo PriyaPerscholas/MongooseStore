@@ -10,10 +10,10 @@ class Show extends React.Component {
                             <h3>{this.props.product.qty}</h3>
                             <a href={`/products/${product._id}/edit`}>Edit this product</a>
 
-                            <form action={`/fruits/${fruit._id}?_method=DELETE`} method="POST">
+                            <form action={`/products/${product._id}?_method=DELETE`} method="POST">
                                    <input type="submit" value="DELETE" />
                             </form>
-                            <a href={`/fruits/${fruit._id}/edit`}>Edit This Fruit</a>
+                            <a href={`/products/${product._id}/edit`}>Edit This Product</a>
                      </div>
               )
        }
