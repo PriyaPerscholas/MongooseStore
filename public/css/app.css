@@ -1,49 +1,49 @@
 html {
-       background-color: pink;
+       background: repeating-linear-gradient(45deg, rgb(247,203,210) 15%,  rgb(243, 181, 191) 30%);
 }
 #box{
        display :grid;
        grid-template-columns: 1fr 1fr 1fr ;
-       grid-column-gap:20px  ;
-       grid-row-gap:20px  ;
-       color:hotpink
+       grid-gap:20px  ;
+       align-items: center;
 }
 h1{
        text-align: center;
        font-weight: bolder;
-       color:hotpink
+       color:rgb(173, 33, 138);
+       text-decoration: underline;
        
 }
 .cake{
        text-align: center;
-       border: 3px inset palevioletred;
+       border: 3px inset  rgb(202, 66, 150);
        width: 400px;
        padding: 10px;
        height:500px;
        border-radius: 35px 10px / 50px 10px;
-       color:hotpink
+       color:rgb(53, 8, 34)
 }
 .box1{
        text-align: center;
-       border: 3px inset palevioletred;
+       border: 3px inset  rgb(202, 66, 150);
        width: 400px;
-       height:400px;
+       height:300px;
        border-radius: 35px 10px / 50px 10px;
        padding: 10px;
-       color:hotpink
+       color:  purple
 }
 .box2{
        text-align: center;
-       border: 3px inset palevioletred;
+       border: 3px inset  rgb(202, 66, 150);
        width:700px;
        height:900px;
        border-radius: 35px 10px / 50px 10px;
 }
 .box3{
        text-align: center;
-       border: 3px inset palevioletred;
+       border: 3px inset  rgb(202, 66, 150);
        width:400px;
-       height:400px;
+       height:300px;
        border-radius: 35px 10px / 50px 10px;
-       align-content: center;
+       
 }

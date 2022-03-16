@@ -14,9 +14,9 @@ class Edit extends React.Component {
                                    Image URL:<input type="text" name="img" defaultValue={this.props.product.img} />
                                    <br />
                                    <br></br>
-                                   Price:<input type="number" name="price" step="0.01 " defaultValue={this.props.product.price} /><br />
+                                   Price:<input type="number" name="price" step="0.01 " min='0' defaultValue={this.props.product.price} /><br />
                                    <br></br>
-                                   Quantity:<input type="number" name="qty" defaultValue={this.props.product.qty} /><br></br>
+                                   Quantity:<input type="number" name="qty" min='0' step="1" defaultValue={this.props.product.qty} /><br></br>
                                    <br></br>
                                    <input type="submit" value="Submit Changes" />
                                    <br></br>

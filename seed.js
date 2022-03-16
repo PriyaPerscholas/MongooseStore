@@ -1,34 +1,53 @@
 const mongoose = require('mongoose')
 const Product = require('./models/products.js');
+const db = require('./models/db')
 
-app.get('/seed', async (req, res) => {
-       const newProducts =
-              [
-                     {
-                            name: 'Beans',
-                            description: 'A small pile of beans. Buy more beans for a big pile of beans.',
-                            img: 'https://cdn3.bigcommerce.com/s-a6pgxdjc7w/products/1075/images/967/416130__50605.1467418920.1280.1280.jpg?c=2',
-                            price: 5,
-                            qty: 99
-                     }, {
-                            name: 'Bones',
-                            description: 'It\'s just a bag of bones.',
-                            img: 'http://bluelips.com/prod_images_large/bones1.jpg',
-                            price: 25,
-                            qty: 0
-                     }, {
-                            name: 'Bins',
-                            description: 'A stack of colorful bins for your beans and bones.',
-                            img: 'http://www.clipartbest.com/cliparts/9cz/rMM/9czrMMBcE.jpeg',
-                            price: 7000,
-                            qty: 1
-                     }
-              ]
+const productSeed =
+       [
+              {
+                     name: 'Princess Cake',
+                     description: "Every princess will love this for her birthday",
+                     img: "https://cutpcdnwimages.azureedge.net/images/products/15000/019534-600x...",
+                     price: 50,
+                     qty: 5
+              }, {
+                     name: "Black Forest Cherry Cake",
+                     description: "Melts in your mouth. For Chocolate lovers",
+                     img: "https://cutpcdnwimages.azureedge.net/images/products/90000/094894-600x...",
+                     price: 35,
+                     qty: 6
+              }, {
+                     name: "Vanilla Cream Cheese Cake",
+                     description: "Enjoy your cream cheese cake with floral design",
+                     img: "https://cutpcdnwimages.azureedge.net/images/products/90000/092501-600x...",
+                     price: 45,
+                     qty: 5,
+              }, {
+                     name: "Cookies and Cream Hero",
+                     description: "Three layers of chocolate and three layers of vanilla cake filled with...",
+                     img: "https://cutpcdnwimages.azureedge.net/images/products/95000/097253-600x...",
+                     price: 50,
+                     qty: 6,
+              }, {
+                     name: "Celestial Unicorn",
+                     description: "Six layers of vanilla or chocolate cake iced and filled with buttercre...",
+                     img: "https://cutpcdnwimages.azureedge.net/images/products/95000/097251-600x...",
+                     price: 35,
+                     qty: 3
+              }, {
+                     name: "Rainbow Celebration",
+                     description: "Six layers of vanilla or chocolate cake filled with rainbow buttercrea...",
+                     img: "https://cutpcdnwimages.azureedge.net/images/products/90000/091297-600x...",
+                     price: 55,
+                     qty: 7
+              }
+       ]
 
-       try {
-              const seedItems = await Product.create(newProducts)
-              res.send(seedItems)
-       } catch (err) {
-              res.send(err.message)
-       }
+
+const seed = async () => {
+       await Product.insertMany(productSeed)
+}
+
+seed().then(() => {
+       db.close()
 })
