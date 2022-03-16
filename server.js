@@ -7,7 +7,7 @@ const methodOverride = require('method-override');
 
 
 //connect to database
-const db = require('./models/db')
+const db = require('./models/db.js')
 db.once('open', () => {
        console.log('connected to mongo')
 })
