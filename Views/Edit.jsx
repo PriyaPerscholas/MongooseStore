@@ -2,9 +2,9 @@ const React = require('react');
 class Edit extends React.Component {
        render() {
               return (
-                     <div>
+                     <div className="box1" >
                             <link rel="stylesheet" href="/css/app.css" />
-                            <h1>Product Edit Page</h1>
+                            <h1><i>Product Edit Page</i></h1>
                             <form action={`/products/${this.props.product._id}?_method=PUT`} method="POST">
                                    Name: <input type="text" name="name" defaultValue={this.props.product.name} />
                                    <br />
