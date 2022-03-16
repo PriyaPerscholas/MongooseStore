@@ -4,6 +4,7 @@ class New extends React.Component {
        render() {
               return (
                      <div>
+                            <link rel="stylesheet" href="/css/app.css" />
                             <h1>New Product Page</h1>
                             <form action="/products" method="POST">
                                    Name:<input type="text" name="name" required />

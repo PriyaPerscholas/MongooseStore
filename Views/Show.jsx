@@ -3,7 +3,8 @@ class Show extends React.Component {
        render() {
               return (
                      <div>
-                            <h1>Cake Show Page</h1>
+                            <link rel="stylesheet" href="/css/app.css" />
+                            <h1><i>Cake Show Page</i></h1>
                             <img style={{ height: '350px', width: '350px' }} src={this.props.product.img} />
                             <h2>Product: {this.props.product.name}</h2>
                             <h3>Description: {this.props.product.description}</h3>
