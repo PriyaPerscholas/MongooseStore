@@ -3,9 +3,8 @@ html {
 }
 #box{
        display :grid;
-       grid-template-columns: 1fr 1fr 1fr ;
-       grid-gap:20px  ;
-       align-items: center;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       grid-gap:20px  ;     
 }
 h1{
        text-align: center;
@@ -20,15 +19,16 @@ h1{
        width: 400px;
        padding: 10px;
        height:500px;
-       border-radius: 35px 10px / 50px 10px;
-       color:rgb(53, 8, 34)
+       border-radius:  20px;
+       color:rgb(53, 8, 34);
+       margin:auto;
 }
 .box1{
        text-align: center;
        border: 3px inset  rgb(202, 66, 150);
        width: 400px;
        height:300px;
-       border-radius: 35px 10px / 50px 10px;
+       border-radius: 20px;
        padding: 10px;
        color:  purple
 }
@@ -37,13 +37,13 @@ h1{
        border: 3px inset  rgb(202, 66, 150);
        width:700px;
        height:900px;
-       border-radius: 35px 10px / 50px 10px;
+       border-radius:  20px;
 }
 .box3{
        text-align: center;
        border: 3px inset  rgb(202, 66, 150);
        width:400px;
        height:300px;
-       border-radius: 35px 10px / 50px 10px;
+       border-radius: 20px;
        
 }

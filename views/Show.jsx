@@ -10,7 +10,7 @@ class Show extends React.Component {
                             <h3>Description: {this.props.product.description}</h3>
                             <h3>Price: ${this.props.product.price}</h3>
                             {/* //<h3>{this.props.product.qty} Remaining</h3> */}
-                            <h3>Quantity:{this.props.product.qty > 0 ? `${this.props.product.qty} in stock` : `Out of Stock`}</h3>
+                            <h3 >{this.props.product.qty > 0 ? `${this.props.product.qty} in stock` : `Out of Stock`}</h3>
                             <form action={`/products/${this.props.product._id}?_method=PATCH`} method="POST">
                                    <input type="submit" value="BuyCake" />
                             </form>
