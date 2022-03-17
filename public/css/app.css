@@ -24,12 +24,12 @@ h1{
        margin:auto;
 }
 .box1{
-       text-align: center;
+       text-align: left;
        border: 3px inset  rgb(202, 66, 150);
        width: 400px;
-       height:300px;
+       height:400px;
        border-radius: 20px;
-       padding: 10px;
+       padding: 20px;
        color:  purple
 }
 .box2{
@@ -40,10 +40,11 @@ h1{
        border-radius:  20px;
 }
 .box3{
-       text-align: center;
+       text-align: left;
        border: 3px inset  rgb(202, 66, 150);
        width:400px;
-       height:300px;
+       height:400px;
        border-radius: 20px;
+       padding: 20px;
        
 }

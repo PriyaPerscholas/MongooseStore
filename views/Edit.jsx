@@ -6,17 +6,27 @@ class Edit extends React.Component {
                             <link rel="stylesheet" href="/css/app.css" />
                             <h1><i>Product Edit Page</i></h1>
                             <form action={`/products/${this.props.product._id}?_method=PUT`} method="POST">
-                                   Name: <input type="text" name="name" defaultValue={this.props.product.name} />
+                                   Name:
+                                   <br></br>
+                                   <input type="text" name="name" defaultValue={this.props.product.name} />
                                    <br />
                                    <br></br>
-                                   Description:<input type="text" name="description" defaultValue={this.props.product.description} /><br />
+                                   Description:
                                    <br></br>
-                                   Image URL:<input type="text" name="img" defaultValue={this.props.product.img} />
+                                   <input type="text" name="description" defaultValue={this.props.product.description} /><br />
+                                   <br></br>
+                                   Image URL:
+                                   <br></br>
+                                   <input type="text" name="img" defaultValue={this.props.product.img} />
                                    <br />
                                    <br></br>
-                                   Price:<input type="number" name="price" step="0.01 " min='0' defaultValue={this.props.product.price} /><br />
+                                   Price:
                                    <br></br>
-                                   Quantity:<input type="number" name="qty" min='0' step="1" defaultValue={this.props.product.qty} /><br></br>
+                                   <input type="number" name="price" step="0.01 " min='0' defaultValue={this.props.product.price} /><br />
+                                   <br></br>
+                                   Quantity:
+                                   <br></br>
+                                   <input type="number" name="qty" min='0' step="1" defaultValue={this.props.product.qty} /><br></br>
                                    <br></br>
                                    <input type="submit" value="Submit Changes" />
                                    <br></br>
