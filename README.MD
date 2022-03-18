@@ -59,6 +59,6 @@ https://www.youtube.com/watch?v=QybOORDUTf0
 - Add PORT=3000 to .env
 - Run node seed.js
 - Run nodemon
--  Lastly, open a browser window, and navigate to http://localhost:3001localhost:3000/products
+-  Lastly, open a browser window, and navigate to http://localhost:3000/products
 
 You're all set to run Mongoose Cake Store on your machine.
