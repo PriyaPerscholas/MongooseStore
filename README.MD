@@ -36,17 +36,6 @@ Here a few screenshots of Mongoose Cake Store
 ![NewProduct](https://user-images.githubusercontent.com/98413761/158919130-01716a8b-7102-4e7e-9ca4-d677087fe967.png)
 
 
-
-![showpageCake](https://user-images.githubusercontent.com/98413761/158918329-7535c109-f6f0-4b7c-bcc1-ec81eee8ff1d.png)
-
-
-
-![productedit](https://user-images.githubusercontent.com/98413761/158919302-f40ae068-b7a1-47f2-ba80-8ec82a8dafe9.png)
-
-
-![NewProduct](https://user-images.githubusercontent.com/98413761/158919130-01716a8b-7102-4e7e-9ca4-d677087fe967.png)
-
-
 --------------------------------------------------------------------------------------------------------
 ### Technologies Used for Mongoose Cake Store:
 -------------------------------------------------------------------------------------------------------
