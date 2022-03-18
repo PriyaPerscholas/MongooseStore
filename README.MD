@@ -62,3 +62,5 @@ https://www.youtube.com/watch?v=QybOORDUTf0
 -  Lastly, open a browser window, and navigate to http://localhost:3000/products
 
 You're all set to run Mongoose Cake Store on your machine.
+-------------------------------------------------------------------------------------------
+- Heroku link https://mongoose-cake-store.herokuapp.com/products
