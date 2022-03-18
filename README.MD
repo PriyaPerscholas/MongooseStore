@@ -19,8 +19,21 @@ Mongoose Cake Store will allow you to
 
 Here a few screenshots of Mongoose Cake Store
 
+1. Index Page: Main Page displays all the products in the store
+
 ![nenicakeshop1](https://user-images.githubusercontent.com/98413761/158913519-8e0b84c9-c311-47b1-9d4e-4b847cef650f.png)
 
+2. Show Page: Displays the product in detail.
+
+![showpageCake](https://user-images.githubusercontent.com/98413761/158918329-7535c109-f6f0-4b7c-bcc1-ec81eee8ff1d.png)
+
+3. Product Edit Page: Edit product in this page
+
+![productedit](https://user-images.githubusercontent.com/98413761/158919302-f40ae068-b7a1-47f2-ba80-8ec82a8dafe9.png)
+
+4. New Product Page: Create new product in this page
+
+![NewProduct](https://user-images.githubusercontent.com/98413761/158919130-01716a8b-7102-4e7e-9ca4-d677087fe967.png)
 
 --------------------------------------------------------------------------------------------------------
 ### Technologies Used for Mongoose Cake Store:

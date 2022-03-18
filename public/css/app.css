@@ -8,7 +8,7 @@ html {
 }
 h1{
        text-align: center;
-       font-weight: bolder;
+       font-size: x-large;
        color:rgb(173, 33, 138);
        text-decoration: underline;
        
@@ -27,11 +27,12 @@ h1{
        text-align: left;
        border: 3px inset  rgb(202, 66, 150);
        width: 400px;
-       height:400px;
+       height:500px;
        border-radius: 20px;
        padding: 20px;
        color:  purple;
        margin:auto ;
+       font-size: x-large;
 }
 .box2{
        text-align: center;
@@ -45,8 +46,10 @@ h1{
        text-align: left;
        border: 3px inset  rgb(202, 66, 150);
        width:400px;
-       height:400px;
+       height:500px;
        border-radius: 20px;
        padding: 20px;
        margin:auto ;
+       font-size: x-large;
+
 }
