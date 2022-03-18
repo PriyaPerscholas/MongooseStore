@@ -41,7 +41,14 @@ const productSeed =
                      img: "https://cutpcdnwimages.azureedge.net/images/products/90000/091297-600x600-A.jpg",
                      price: 55,
                      qty: 7
+              }, {
+                     name: "Strawberry Covered Chocolate",
+                     description: "six layer of  chocolate cake filled with ganache then iced in strawberry buttercream. Garnished with ganache, chocolate dipped strawberries, fudge icing, chocolate pieces, and macarons",
+                     img: "https://cutpcdnwimages.azureedge.net/images/products/90000/093663-600x600-A.jpg",
+                     price: "55",
+                     qty: "7",
               }
+
        ]
 
 
