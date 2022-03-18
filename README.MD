@@ -25,7 +25,7 @@ Here a few screenshots of Mongoose Neni Cake Store
 
 2. Product Details page: Displays the details of selected Cake.
 
-![showpageCake](https://user-images.githubusercontent.com/98413761/158918329-7535c109-f6f0-4b7c-bcc1-ec81eee8ff1d.png)
+![productdetailpage](https://user-images.githubusercontent.com/98413761/158930543-f7b296a5-148b-485e-a396-81dfb4fa8910.png)
 
 3. Edit Product page: Selected Cake details will be displayed in Edit mode
 
