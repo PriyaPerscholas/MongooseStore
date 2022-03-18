@@ -19,8 +19,7 @@ Mongoose Cake Store will allow you to
 
 Here a few screenshots of Mongoose Cake Store
 
-![I]
-![Index Page!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+![nenicakeshop1](https://user-images.githubusercontent.com/98413761/158913519-8e0b84c9-c311-47b1-9d4e-4b847cef650f.png)
 
 
 --------------------------------------------------------------------------------------------------------
