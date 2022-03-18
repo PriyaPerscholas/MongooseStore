@@ -30,7 +30,7 @@ Here a few screenshots of Mongoose Cake Store
 ![EditPage](https://user-images.githubusercontent.com/98413761/158918517-eddb9d97-f9a4-4c1a-875a-7f410d8621ce.png)
 
 
-![NewProduct](https://user-images.githubusercontent.com/98413761/158918732-e23ee8cb-b1a7-4aa3-9769-d0d9dc1e4cf0.png)
+![NewProduct](https://user-images.githubusercontent.com/98413761/158919130-01716a8b-7102-4e7e-9ca4-d677087fe967.png)
 
 
 --------------------------------------------------------------------------------------------------------
