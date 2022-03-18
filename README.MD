@@ -22,6 +22,11 @@ Here a few screenshots of Mongoose Cake Store
 ![nenicakeshop1](https://user-images.githubusercontent.com/98413761/158913519-8e0b84c9-c311-47b1-9d4e-4b847cef650f.png)
 
 
+
+
+![showpageCake](https://user-images.githubusercontent.com/98413761/158918329-7535c109-f6f0-4b7c-bcc1-ec81eee8ff1d.png)
+
+
 --------------------------------------------------------------------------------------------------------
 ### Technologies Used for Mongoose Cake Store:
 -------------------------------------------------------------------------------------------------------
