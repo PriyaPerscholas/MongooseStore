@@ -4,7 +4,7 @@ class Show extends React.Component {
               return (
                      <div className='box2'>
                             <link rel="stylesheet" href="/css/app.css" />
-                            <h1><i>Cake Show Page</i></h1>
+                            <h1><i>Product Detail Page</i></h1>
                             <h2> {this.props.product.name}</h2>
                             <img style={{ height: '450px', width: '550px' }} src={this.props.product.img} />
                             <h3>Description: {this.props.product.description}</h3>

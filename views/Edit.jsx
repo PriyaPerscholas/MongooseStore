@@ -4,7 +4,7 @@ class Edit extends React.Component {
               return (
                      <div className="box1" >
                             <link rel="stylesheet" href="/css/app.css" />
-                            <h1><i>Product Edit Page</i></h1>
+                            <h1><i>Edit Product Page</i></h1>
                             <form action={`/products/${this.props.product._id}?_method=PUT`} method="POST">
                                    Name:
                                    <br></br>
